@@ -5,41 +5,20 @@ A beginner-friendly Python project that demonstrates how to build a **Student Ma
 - 💻 **CLI Version** (Terminal-based)
 - 🖥 **GUI Version** (Tkinter-based)
 
-This system supports adding, viewing, searching, and deleting student records. Data is saved in **`students.txt`** so it stays even after the program closes.
+The system supports adding, viewing, searching, and deleting student records. Data is stored in **`students.txt`** for persistence.
 
 ---
 
 ## 📌 Project Description
 
-This project helps you manage student records efficiently:
+This project allows users to manage student records efficiently.
 
-✅ Add Student  
-✅ View Students  
-✅ Search Student  
-✅ Delete Student  
-✅ Data stored in file (`students.txt`) for persistence  
-
----
-
-## ⚙️ Features
-
-### 🔹 Common Features (CLI + GUI)
-- Add Student
+### ✅ Supported Operations (CLI + GUI)
+- Add Student (with duplicate prevention)
 - View Students
-- Search Student
-- Delete Student
+- Search Student (case-insensitive)
+- Delete Student (case-insensitive)
 - Persistent storage using `students.txt`
-
-### 🔹 CLI Version (Terminal)
-- Menu-driven interface
-- Lightweight and simple
-- Runs in terminal/command prompt
-
-### 🔹 GUI Version (Tkinter)
-- Buttons for all operations (Add/View/Search/Delete)
-- Listbox display of students
-- Scrollbar support
-- Popup messages for success/error feedback
 
 ---
 
@@ -57,11 +36,9 @@ This project helps you manage student records efficiently:
 Student-Management-System/
 ├── student_management.py          # CLI version
 ├── student_management_gui.py      # GUI version (Tkinter)
-├── students.txt                   # Data storage file
+├── students.txt                   # Data storage file (one student name per line)
 └── README.md
 ```
-
-> Note: The CLI script in this repository is `student_management.py`.
 
 ---
 
@@ -79,54 +56,24 @@ python student_management_gui.py
 
 ---
 
-## 💻 Example Console Output (CLI)
-
+## 📝 students.txt Format
+- **One student name per line**
+Example:
 ```
-===== Student Management System =====
-1. Add Student
-2. View Students
-3. Search Student
-4. Delete Student
-5. Exit
-
-Enter your choice: 1
-Enter student name: Rahul
-Student added successfully!
+Rahul
+Aisha
+John Doe
 ```
-
----
-
-## 🖥 GUI Overview
-- Text input field to enter student name
-- Buttons for all operations (Add, View, Search, Delete)
-- Listbox to display students
-- Scrollbar for large lists
-- Popup messages for feedback
 
 ---
 
 ## 🎯 Learning Purpose
-
 This project is created to practice:
 - Python programming fundamentals
 - File handling (read/write)
 - GUI development using Tkinter
 - Event-driven programming
 - Code structuring using functions
-
----
-
-## 👨‍💻 Author
-**Saloni Tiwari**  
-Python & Data Science Student
-
----
-
-## 📊 Project Level
-🟢 Beginner → Intermediate  
-- CLI Version → Beginner  
-- GUI Version → Beginner+  
-- Combined Project → Intermediate  
 
 ---
 
