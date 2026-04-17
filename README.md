@@ -77,4 +77,8 @@ This project is created to practice:
 
 ---
 
+👨‍💻 Author
+
+Saloni Tiwari Python & Data Science Student
+
 ⭐ If you like this project, feel free to star the repository!
