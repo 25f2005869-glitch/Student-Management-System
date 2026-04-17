@@ -65,3 +65,7 @@ while True:
 
     else:
         print("Invalid choice! Try again.")
+        name = input("Enter student name: ")
+
+if name.strip() == "":
+    print("Invalid input! Name cannot be empty.")
