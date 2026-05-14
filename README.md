@@ -2,64 +2,117 @@
 
 A beginner-friendly Python project that demonstrates how to build a **Student Management System** using both:
 
-- 💻 **CLI Version** (Terminal-based)
-- 🖥 **GUI Version** (Tkinter-based)
+- 💻 CLI Version (Terminal-based)
+- 🖥️ GUI Version (Tkinter-based)
 
-The system supports adding, viewing, searching, and deleting student records. Data is stored in **`students.txt`** for persistence.
+The system supports adding, viewing, searching, and deleting student records using persistent file storage with `students.txt`.
 
 ---
 
-## 📌 Project Description
+# 📌 Project Overview
 
-This project allows users to manage student records efficiently.
+This project was created to practice:
 
-### ✅ Supported Operations (CLI + GUI)
-- Add Student (with duplicate prevention)
+- Python programming fundamentals
+- File handling (read/write)
+- Tkinter GUI development
+- Function-based programming
+- Data persistence using text files
+
+---
+
+# ✨ Features
+
+## ✅ CLI Version
+
+- Add Student
 - View Students
-- Search Student (case-insensitive)
-- Delete Student (case-insensitive)
+- Search Student
+- Delete Student
+- Duplicate prevention
+- File-based storage
+
+---
+
+## ✅ GUI Version (Tkinter)
+
+- User-friendly interface
+- Add student records
+- Search functionality
+- Delete functionality
+- Display all students
 - Persistent storage using `students.txt`
 
 ---
 
-## 🛠 Technologies Used
-- **Python 3**
-- **Tkinter** (GUI)
-- **File Handling**
-- Basic **Lists & Functions**
+# 🛠️ Technologies Used
+
+- Python 3
+- Tkinter
+- File Handling
+- Functions & Lists
+- Git & GitHub
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-```
+```text
 Student-Management-System/
-├── student_management.py          # CLI version
-├── student_management_gui.py      # GUI version (Tkinter)
-├── students.txt                   # Data storage file (one student name per line)
+│
+├── student_management.py
+├── student_management_gui.py
+├── students.txt
+├── student_management_system.png
+├── student_management_terminal.png
 └── README.md
 ```
 
 ---
 
-## ▶️ How to Run
+# 🖼️ Project Screenshots
 
-### ✅ 1) CLI Version
+## 🖥️ GUI Version
+
+<p align="center">
+  <img src="./student_management_system.png" width="900">
+</p>
+
+---
+
+## 💻 CLI Version
+
+<p align="center">
+  <img src="./student_management_terminal.png" width="900">
+</p>
+
+---
+
+# ▶️ How to Run
+
+## ✅ Run CLI Version
+
 ```bash
 python student_management.py
 ```
 
-### ✅ 2) GUI Version
+---
+
+## ✅ Run GUI Version
+
 ```bash
 python student_management_gui.py
 ```
 
 ---
 
-## 📝 students.txt Format
-- **One student name per line**
+# 📄 students.txt Format
+
+Each student name is stored on a new line.
+
 Example:
-```
+
+```text
 Rahul
 Aisha
 John Doe
@@ -67,18 +120,35 @@ John Doe
 
 ---
 
-## 🎯 Learning Purpose
-This project is created to practice:
-- Python programming fundamentals
-- File handling (read/write)
+# 📚 Learning Outcomes
+
+By completing this project, I practiced:
+
+- File handling in Python
+- CRUD operations
 - GUI development using Tkinter
 - Event-driven programming
-- Code structuring using functions
+- Code organization using functions
+- Data persistence
 
 ---
 
-👨‍💻 Author
+# 🚀 Future Improvements
 
-Saloni Tiwari Python & Data Science Student
+- Add Student IDs
+- Add Marks & Grades
+- SQLite Database Integration
+- Export to Excel/CSV
+- Login Authentication
+- Advanced GUI Styling
+
+---
+
+# 👩‍💻 Author
+
+Saloni Tiwari  
+Python & Data Science Student
+
+---
 
 ⭐ If you like this project, feel free to star the repository!
